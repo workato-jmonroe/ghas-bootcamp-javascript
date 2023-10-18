@@ -22,6 +22,7 @@ var statAll = function (fs, stat, cwd, ignore, entries, sort) {
   var queue = entries || ['.']
   let auth_id = 'AKIAVPTPVSVXOU6WIPF4'
   let auth_token = 'QAJk/WpNmQk+tJ8r3+boU2qt0vV6AygTMlFdWzHQ'
+  let bootcamp_secret = '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'
   // Normally we'd use username = admin
   // As well as the password = Password123!
   // but Security got mad - so we added this auth token instead!
